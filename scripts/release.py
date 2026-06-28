@@ -45,6 +45,7 @@ ACP_REGISTRY_MANIFEST = REPO_ROOT / "acp_registry" / "agent.json"
 
 # Auto-extracted from noreply emails + manual overrides
 AUTHOR_MAP = {
+    "5261694+djstunami@users.noreply.github.com": "djstunami",  # PR #5316 salvage / co-author (suppress transient check_fn flakes so subagents keep file/terminal tools; #21658 / #5304)
     "dale@dalenguyen.me": "dalenguyen",  # PR #53678 salvage (strip VIRTUAL_ENV/CONDA_PREFIX from terminal subprocess env; #23473)
     "blaryx@gmail.com": "Blaryxoff",  # PR #32602 salvage (deep-merge PUT /api/config to preserve unrelated sections; #13396)
     "diamondeyesfox@gmail.com": "DiamondEyesFox",  # PR #53351 salvage (rebaseline in-place compression flushes to prevent duplicate compacted rows; #9096)
